@@ -5,7 +5,7 @@ function add (num1, num2) {
     console.log(num1 + num2);
 }
 
-const result = add(133, 2);
+let result1 = add(133, 2);
 console.log(result);
 
 function add (num1, num2) {
@@ -13,14 +13,14 @@ function add (num1, num2) {
     return
 }
 
-const result = add(133, 2);
+let result2 = add(133, 2);
 console.log(result);
 
 function add (num1, num2) {
     console.log(num1, num2);
 }
 
-const result = add(133);
+let result3 = add(133);
 console.log(result);
 
 const details = {name: "Razai Zim", roll: "01"}
